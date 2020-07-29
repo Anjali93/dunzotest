@@ -42,7 +42,5 @@ public class CoffeeMachine {
         machine.serve("green_tea");
 
         machine.printLowItems();
-
-
     }
 }

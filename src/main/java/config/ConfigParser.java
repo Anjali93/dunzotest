@@ -13,5 +13,4 @@ public class ConfigParser {
     public MachineConfig parseMachineConfig(String fileName) throws IOException {
         return objectMapper.readValue(new File(fileName), MachineConfig.class);
     }
-
 }
